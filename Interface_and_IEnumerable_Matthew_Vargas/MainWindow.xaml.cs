@@ -1,4 +1,4 @@
-﻿using System.Text;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -39,7 +39,7 @@ namespace Interface_and_IEnumerable_Matthew_Vargas
         {
             lbStudents.Items.Clear();
 
-            foreach (Student student in prog124.ClassList) //when removed it doesn't function, I followed the steps so I am confused
+            foreach (Student student in prog124.ClassList) //whenever ClassList is removed the code runs red in the ClassRoster class, I followed the steps and I have become confused
             {
                 lbStudents.Items.Add(student);
             }
