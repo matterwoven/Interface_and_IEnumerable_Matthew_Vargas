@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
@@ -66,7 +66,7 @@ namespace Interface_and_IEnumerable_Matthew_Vargas
             { index = -1; }
         }
     }
-
+    //Below is included so the entire code doesn't go red regarding IEnumerable
     internal interface IEnumerator
     {
     }
